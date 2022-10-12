@@ -2,13 +2,11 @@
   "name": "innodep_cctv",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/coralcat/innodep_cctv.git",
   "author": "sori <sori.coralcat@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.7",
     "@babel/preset-env": "^7.12.7",
-    "@fortawesome/fontawesome-pro": "^5.15.4",
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
     "ejs": "^3.1.5",
