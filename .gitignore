@@ -1,7 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/vscode,webstorm+all,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode,webstorm+all,node
-
+dist
 ### Node ###
 # Logs
 logs
