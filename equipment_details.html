@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <title>VURIX CLOUD</title>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script defer src="/assets/js/solid.js"></script>
+  <script defer src="/assets/js/duotone.js"></script>
+  <script defer src="/assets/js/light.js"></script>
+  <script defer src="/assets/js/fontawesome.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <aside class="global-navigation-menu">
+      <div class="profile">
+        <div class="image">
+          <img src="assets/images/profile.jpg" alt="">
+        </div>
+        <ul class="user-information">
+          <li class="user-id">
+            otter0104
+          </li>
+          <li class="user-type">
+            최고관리자
+          </li>
+        </ul>
+      </div>
+      <nav class="menu">
+        <div class="menu-workspace" onclick="location.href='workspace.html'">
+          <i class="fad fa-mail-bulk"></i>
+          <span>Workspace</span>
+        </div>
+        <div class="menu-equipments" onclick="location.href='equipments.html'">
+          <i class="fad fa-cctv"></i>
+          <span>장비현황</span>
+        </div>
+      </nav>
+      <nav class="menu menu-settings">
+        <div class="menu-privacy" onclick="location.href='guide.html'">
+          <i class="fad fa-book"></i>
+          <span>개인정보 수집 및 이용안내</span>
+        </div>
+        <div class="menu-privacy" onclick="location.href='privacy.html'">
+          <i class="fad fa-file-user"></i>
+          <span>개인정보처리방침</span>
+        </div>
+        <div class="menu-terms" onclick="location.href='terms.html'">
+          <i class="fad fa-file-invoice"></i>
+          <span>서비스 약관</span>
+        </div>
+        <div class="menu-logout" onclick="">
+          <i class="fad fa-sign-out"></i>
+          <span>로그아웃</span>
+        </div>
+      </nav>
+    </aside>
+    
+
+
+<header>
+  <div class="row">
+    <button class="btn-back" onclick="history.back()">
+      <i class="fad fa-arrow-left"></i>
+    </button>
+    <div class="title">장비 상세정보</div>
+  </div>
+</header>
+
+<main class="content equipments details">
+  <section>
+    <div class="title">
+      <strong>W28E012_서북구 불당동 1830</strong>
+      <span>(불달18로 불당25로)</span>
+    </div>
+    <div class="view">
+
+      <!-- 뷰 영역 -->
+      <img
+        src="https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        alt="">
+    </div>
+    <div class="address">
+      <p>충청남도 천안시 서북구 불당동 1830</p>
+      <button class="btn-navigation" type="button">
+        <i class="fad fa-directions"></i>
+        <span>내비게이션</span>
+      </button>
+    </div>
+  </section>
+  <section class="information">
+    <ul class="tabs">
+      <li>기본 정보</li>
+      <li>연결 장비 정보</li>
+    </ul>
+    <div class="tab-content basic">
+      <div class="row">
+        <span>연결 유형</span>
+        <span>TMS (통합플랫폼)</span>
+      </div>
+      <div class="row">
+        <span>장비 유형</span>
+        <span>CCTV > 도로 감시</span>
+      </div>
+      <div class="row">
+        <span>장비 상태</span>
+        <span class="status normal"></span>
+      </div>
+      <div class="row">
+        <span>최근 업데이트</span>
+        <span>10초 전</span>
+      </div>
+      <div class="row">
+        <span>연동 일시</span>
+        <span>2021.07.28 12:54:32</span>
+      </div>
+    </div>
+    <div class="tab-content equipment">
+      <div class="row">
+        <span class="status normal"></span>
+        <span>0</span>
+        <span>TNM-3620TDY</span>
+        <span>2021.07.28 11:30:22</span>
+      </div>
+      <div class="row">
+        <span class="status abnormal"></span>
+        <span>0</span>
+        <span>TNM-3620TDY</span>
+        <span>2021.07.28 11:30:22</span>
+      </div>
+      <div class="row">
+        <span class="status normal"></span>
+        <span>0</span>
+        <span>TNM-3620TDY</span>
+        <span>2021.07.28 11:30:22</span>
+      </div>
+    </div>
+    <div class="no-result">연결 장비 정보가 없습니다.</div>
+  </section>
+</main>
+<div class="modal modal-navigation">
+  <div class="modal-header">
+    <div class="title">
+      <h3>내비게이션</h3>
+      <button class="btn-close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 18 18">
+          <path
+            d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="modal-content">
+    <ul class="navigations">
+      <li onclick="">
+        <img src="assets/images/logo_kakaomap.png" alt="카카오맵 바로가기">
+        <span>카카오맵</span>
+      </li>
+      <li onclick="">
+        <img src="assets/images/logo_navermap.png" alt="네이버지도 바로가기">
+        <span>네이버지도</span>
+      </li>
+      <li onclick="">
+        <img src="assets/images/logo_tmap.jpg" alt="티맵 바로가기">
+        <span>T map</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <div class="bottom-sticky-menu">
+      <div class="buttons">
+        <button class="btn-search tooltip" data-tooltip="검색" type="button">
+          <i class="fad fa-search"></i>
+        </button>
+        <button class="btn-top tooltip" data-tooltip="위로" type="button">
+          <i class="fad fa-arrow-up"></i>
+        </button>
+        <button class="btn-workspace tooltip" data-tooltip="업무요청" onclick="location.href='workspace_add.html'" type="button">
+          <i class="fad fa-briefcase"></i>
+        </button>
+        <button class="btn-undertake tooltip" data-tooltip="장애접수" onclick="location.href='equipment_add.html'" type="button">
+          <i class="fad fa-tools"></i>
+        </button>
+      </div>
+      <button class="btn-main" type="button">
+        <i class="fal fa-plus"></i>
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
